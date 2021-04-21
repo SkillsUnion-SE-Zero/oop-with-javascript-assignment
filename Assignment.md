@@ -9,8 +9,9 @@
 
 Modularization is a common strategy to break a program into smaller unit of code so as to achieve maintainability, reusability and scalability to the code base. In JavaScript, it is done through the `export` and `import` keywords. 
 
-[MDN Documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
-[YouTube](https://youtu.be/cRHQNNcYf6s)
+Revision:
+- [MDN Documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
+- [YouTube](https://youtu.be/cRHQNNcYf6s)
 
 ### Part 2
 
