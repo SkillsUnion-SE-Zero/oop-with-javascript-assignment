@@ -3,16 +3,21 @@
 
 # OOP with JavaScript: Assignment
 
-## Tasks
+## Make an ATM
 
-### Part 1
+For this exercise you will be creating an ATM class.
 
-Modularization is a common strategy to break a program into smaller unit of code so as to achieve maintainability, reusability and scalability to the code base. In JavaScript, it is done through the `export` and `import` keywords. 
+It will have the following properties:
 
-Revision:
-- [MDN Documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
-- [YouTube](https://youtu.be/cRHQNNcYf6s)
+- `type` (e.g., "checking"), which should be determined by some input
+- `money`, which should start out as `0`
 
-### Part 2
+It should have the following methods:
 
-In the `src` folder, you will find an index.js file that contains the outcome of your OOP Lab session. Your are to move `SimpleCalculator` class from index.js to simple-calculator.js, `TaxCalculator` from index.js to tax-calculator.js, and instantiate these classes in index.js file by utilizing the `export` and `import` keywords.
+- `withdraw`, which should decrease the amount of money by some input
+- `deposit`, which should increase the amount of money by some input
+- `showBalance`, which should print the amount of money in the bank to the console.
+
+The `Atm` class also has a `transactionHistory` property which keeps track of the withdrawals and deposits made to the account. Using an `Array` for this might be a good idea.
+
+Also, make sure to indicate whether the transaction increased or decreased the amount of money in the bank by using `console.log`.
